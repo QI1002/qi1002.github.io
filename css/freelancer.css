@@ -31,6 +31,25 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+hr.line {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+  border-color: white;
+}
+hr.line:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+  background-color: #18BC9C;
+  color: white;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -69,12 +88,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #BFDBFF;
+  color: #194292;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 header img {
   display: block;
@@ -104,9 +123,8 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #66CBEA;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
@@ -183,18 +201,35 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 section.success {
-  background: #18BC9C;
+  background: #FF9C7C;
   color: white;
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 30px 0;
   }
   section.first {
-    padding-top: 75px;
+    padding-top: 30px;
+  }
+}
+section .skills {
+  font-size: 1.3em;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  section .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  section .name {
+    font-size: 4.75em;
+  }
+  section .skills {
+    font-size: 1.75em;
   }
 }
 #portfolio .portfolio-item {

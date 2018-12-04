@@ -205,8 +205,8 @@ section h2 {
   font-size: 2.5em;
 }
 section.success {
-  background: #FF9C7C;
-  color: white;
+  background: #B5E695;
+  color: gray;
 }
 @media (max-width: 767px) {
   section {
@@ -359,6 +359,22 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+.btn-resume {
+  color: #18BC9C;
+  font-size: 20px;
+  border: solid 2px white;
+  background: white;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-resume:hover,
+.btn-resume:focus,
+.btn-resume:active,
+.btn-resume.active {
   color: #18BC9C;
   background: white;
   border: solid 2px white;
@@ -773,6 +789,9 @@ section.skills {
 }
 .progress-bar-blue {
   background-color: #337ab7;
+}
+.progress-bar-gray {
+  background-color: #A0A0A0;
 }
 
 
